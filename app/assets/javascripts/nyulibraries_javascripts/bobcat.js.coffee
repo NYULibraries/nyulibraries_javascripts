@@ -1,5 +1,5 @@
 # Require 'nyulibraries'
-#= require nyulibraries
+#= require nyulibraries_javascripts/nyulibraries
 $ ->
   # BobCat Tabs Tips
   new window.nyulibraries.Popover("#bobcat_tabs .nav-tabs li a").init()
