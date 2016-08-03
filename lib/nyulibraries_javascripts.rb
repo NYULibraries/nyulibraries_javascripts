@@ -1,3 +1,5 @@
+require 'nyulibraries_javascripts/version'
+
 module NyulibrariesJavascripts
   class << self
     # modified from bootstrap-sass gem
