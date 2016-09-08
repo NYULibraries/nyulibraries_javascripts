@@ -4,15 +4,16 @@
 gem 'nyulibraries_javascripts', git: "https://github.com/NYULibraries/nyulibraries_javascripts"
 ```
 
-Within your Coffeescript files:
+## Upgrading from Nyulibraries::Assets
+
+Javascripts are now namespaced under `nyulibraries_javascripts` when included in the client project. For example, you will need to replace
 
 ```
-# = require nyulibraries_javascripts
+//= require nyulibraries;
 ```
 
-To require specific files or directories:
+with:
 
 ```
-# = require nyulibraries_javascripts/bobcat
-# = require nyulibraries_javascripts/nyulibraries
+//= require nyulibraries_javascripts/nyulibraries;
 ```
